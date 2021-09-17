@@ -14,7 +14,7 @@ terraform {
     organization = "kkorganization1"
 
     workspaces {
-      name = "gcp_terra"
+      name = "terraform_for_gcp"
     }
   }
 }
