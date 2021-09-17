@@ -11,10 +11,10 @@ provider "google" {
 
 terraform {
   backend "remote" {
-    #organization = "kkorganization1"
+    organization = "kkorganization1"
 
     workspaces {
-      name = "terraform_for_gcp"
+      name = "gcp_terra"
     }
   }
 }
