@@ -9,7 +9,7 @@ on:
       - '**.tf'
     branches:
       - main
-# テスト1
+# テスト2
 jobs:
   terraform:
     name: 'Dev Networking Terraform'
