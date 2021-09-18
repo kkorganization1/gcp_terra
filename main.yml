@@ -1,7 +1,7 @@
 variable "GOOGLE_CREDENTIALS" {}
 variable "PROJECT_ID" {}
 
-# プルリクテスト19
+# プルリクテスト20
 provider "google" {
   credentials = var.GOOGLE_CREDENTIALS
   project     = var.PROJECT_ID
